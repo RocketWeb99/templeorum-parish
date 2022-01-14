@@ -1,0 +1,56 @@
+/* v 0.52 */
+body {
+	background-color: #FFFFCC; 		/* set by UI -  alter but do not remove  */
+	background-image:  url(); 		/* set by UI -  alter but do not remove  */
+}
+
+.closertd{ 
+	text-align: center; 				/* set by UI -  alter but do not remove  */
+}
+
+.closer a:link, .closer a:visited {
+	background-color: #bbbbbb; 		/* set by UI -  alter but do not remove  */
+	color: #333333; 				/* set by UI -  alter but do not remove  */
+
+	border: 1px #999999 outset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	text-decoration: none;
+}
+
+.closer a:hover {
+	background-color: #777777; 		/* set by UI -  alter but do not remove  */
+	color: #bbbbbb; 				/* set by UI -  alter but do not remove  */
+}
+
+.caption {
+	color: #ffffff; 				/* set by UI -  alter but do not remove  */
+	background-color: #777777; 		/* set by UI -  alter but do not remove  */
+	line-height: 26px;				/* set by UI -  alter but do not remove  */
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+.imagecell img {
+	border: 1px #CCCCCC solid;
+	text-decoration: none;
+}
+
+.tblImg{
+	background-image:  url(isloading2.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+span.captionText{
+	padding-left: 20px;  
+	padding-right: 20px;
+}
+
+/*.captionJS{} */

@@ -1,0 +1,31 @@
+table.jspa td {
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #666666;
+	padding: 16px 16px 16px 16px;
+	border-right-color: #999;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: #999;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: #dbdbdb;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-left-style: dashed;
+	border-left-color: #DBDBDB;
+	border-left-width: 1px;
+	background-color: #FBFBFB;
+	text-align: center;
+}
+table.jspa img {
+	border: 1px solid #aaa;
+	border-top-color: #CCC;
+	border-right-color: #888;
+	border-bottom-color: #888;
+	border-left-color: #CCC;
+}
+table.jspa {
+	background-color:#FFFFFF;
+}

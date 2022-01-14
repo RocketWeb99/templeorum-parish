@@ -1,0 +1,18 @@
+table.jspa td {
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 16px 16px 16px 16px;
+	text-align: center;
+}
+table.jspa img {
+	border: 1px solid #bbb;
+}
+table.jspa {
+	background-color:#666666;
+	border: 1px solid #ccc;
+	background-image: url(metalbg.jpg);
+	border-bottom-color: #666666;
+	border-right-color: #666666;
+}
