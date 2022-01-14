@@ -1,0 +1,80 @@
+<html>
+<head>
+<!-- version jspw3_pop.htm 1.4.12; 1.4.9===1.4.2 (!=148) -->    
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript"><!-- 	
+var ubg='';if(window.opener){var fname=String(window.opener.location);fname=fname.substring(fname.lastIndexOf('/')+1,fname.lastIndexOf('.'));if (fname.match(/^TMP\w{5,}/)) fname='';}else fname='';function getImgNom(){return imgName.substring(imgName.lastIndexOf('/')+1,imgName.lastIndexOf('.'));}function dcr(num){if(num.search(/\D/)!= -1)return -1;var str="";for(i=0;i<num.length;i+=2){str+=unescape('%'+(parseInt(num.substr(i,[2]))+23).toString(16));}return str;}var q=location.search.split(',');var imgName=unescape(unescape(q[0].substr(1).replace(/_v_w_d_/g,'/')));var ww=q[1];var ctc=(q[2]-0)?' onBlur="self.close()" onClick="self.close()"':'';var caption=unescape(unescape(q[3]));var caplineht=String(q[4]).split('.')[1]; var caprows=String(q[4]).split('.')[0];var pagetitle=unescape(unescape(q[5]));var alt=unescape(unescape(q[16]));var bCloser=q[7];var maxc=q[8];var poof=q[9];var bar=q[10];var iw=q[11];var ih=q[12];ubg=q[14];var dts=q[15].replace(/_v_w_d_/g,'/');var docname=(fname)?unescape(unescape(fname)):unescape(unescape(q[6]));var css=((q[13])?docname:dts)+'/';if(getImgNom(imgName).charAt(0) == '*'){imgName=imgName.substring(0,imgName.lastIndexOf('/')+1)+dcr(getImgNom(imgName).substr(1))+imgName.substr(imgName.lastIndexOf('.'));}else{var inm=getImgNom(imgName);caption=caption.replace(/\*/g,inm);pagetitle=pagetitle.replace(/\*/g,inm);alt=alt.replace(/\*/g,inm);}if(document.all)document.onkeydown=function(){return event.keyCode!= 78;};function disappear(){if(poof)setTimeout('window.close()',poof*1000);}document.write('<title>'+pagetitle+'</title>\n<link href="'+css+'jspw3.css" rel="stylesheet" type="text/css">');if(caption&&caption.substring(0,3)=="js_"){document.write('<scr'+'ipt type="text/JavaScript" src="'+docname+'/'+getImgNom()+'.js"><\/scr'+'ipt>');}
+// -->
+</script>
+<script type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+// -->
+</script>
+</head> 
+<script type="text/javascript">
+	if (ubg) ubg='style="background-color:#'+ubg+'" ' ;
+	document.write('<body onload="disappear()" ' +ubg+ 'leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"' +ctc+'>') ;
+</script>
+<body>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" class="tblWrapper">
+  <tr>
+    <td align="center" valign="middle">   
+		  <script type="text/javascript">
+			bar = (bar != 0)? ' galleryimg="no"':'' ;
+			alt = (alt)?' alt="'+alt+'" ':'' ;
+			bCloser = (bCloser>0)?'<a href="javascript:self.close()">Close</a>':'' ;
+	  		document.write('<table class="tblImg" width="'+iw+'" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td align="center" class="imgcell">');
+
+			if (imgName.substr(imgName.lastIndexOf('.')) == '.swf') { var theCode='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="'+iw+'" height="'+ih+'"><param name="movie" value="'+imgName+'"><param name="quality" value="high"><embed src="'+imgName+'" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+iw+'" height="'+ih+'"></embed></object>'
+  			} else {
+				var theCode='<img src="'+imgName+'" width="'+iw+'" height="'+ih+'"'+bar+alt+'>';
+			}
+			document.write(theCode+'</td></tr>');
+			if (bCloser) document.write('<tr><td class="closertd"><span class="closer">' +bCloser+'</span></td></tr>');
+		</script>
+</td>
+  </tr>
+</table>
+<script type="text/javascript">
+	if (bar && (typeof theCaption != 'undefined' && theCaption.indexOf('*') != -1)) theCaption='';
+	if (caption=='' || caption=='txt' || (caption.substring(0,3) == 'js_' && (typeof theCaption == 'undefined' || theCaption == ''))) {
+	} else {
+		var capwidth;
+		var paddingallowance=0;
+		if (maxc == 1 ) {
+			capwidth = iw-paddingallowance;
+		} else {
+			if (maxc == 2) {
+				capwidth=ww-paddingallowance;
+			} else {
+				capwidth = (iw+(3000/iw)^2) - paddingallowance;
+				if (capwidth > ww) capwidth=(0.95*ww)-paddingallowance;
+				if (Math.abs(capwidth - iw) < 15) capwidth=iw - paddingallowance;
+			}
+		}
+		if (capwidth < (100-paddingallowance)) capwidth=100-paddingallowance ;
+		document.write('<table border="0" cellspacing="0" cellpadding="0" align="center" width="'+capwidth+'" ><tr>');
+		switch(caption.substring(0,3)){
+			case 'js_':
+				caprows=caprows-0+1;
+				if ((typeof theCaption != 'undefined') && (theCaption != '')){//theCaption is defined in js file
+					document.write('<td><form name="frmJScap"><textarea id="captionJS" name="captionJS" style="width:'+capwidth+'px;" class="caption" rows="'+caprows+'" >'+theCaption+'</textarea></form></td></tr>');
+					break;
+				}
+/*			case 'ifr':
+				var imgNom = getImgNom();
+				var ifrExt = caption.substr(3);
+				document.write('<td><iframe src="http://valleywebdesigns.com/'+docname.substr(3)+imgNom+ifrExt+'" name="captionFrame" width="'+capwidth+'" height="'+(caplineht*caprows)+'" align="default">The image description is only visible on modern browers.</iframe></td></tr>');
+				break;
+*/
+			default: 
+				document.write('<td class="caption"><span class="captionText">'+caption.substr(3)+'</span></td></tr>') ; 
+				break;
+		}
+	}
+</script></table></td></tr></table></body></html>
