@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+/*
+
+design by James Brand @ http://www.dreamweavertutorial.co.uk
+
+/*
+ * @Web Text Boxes code 
+ * @author dreamweavertutorial@live.co.uk - http://www.dreamweavertutorial.co.uk
+ * @version 1.0.0
+ * @date March 17, 2010
+ * @category Dreamweaver Web Text Boxes
+ * @copyright (c) 2010 @dreamweavertutorial.co.uk (www.dreamweavertutorial.co.uk)
+ * @Creative Commons Attribution-No Derivative Works 2.5 UK: SCOTLAND License.
+ * @Creative Commons Attribution-No Derivative Works 3.0 United States License.
+ * @Creative Commons Attribution-No Derivative Works 2.0 UK: England & Wales License.
+
+*/
+
+
+/* finished files */
+
+.box {
+	background: url(../images/boxBottom.jpg) no-repeat scroll left bottom;
+	width: 250px;
+	float: left;
+	margin: 25px;
+	padding-bottom: 15px;
+}
+.box1 {
+	background: url(../images/boxBottom.jpg) no-repeat scroll left bottom;
+	width: 250px;
+	float: left;
+	border-top-style: solid;
+	border-top-color: #eee;
+	margin: 25px;
+	padding-top: 15px;
+}
+
+
+.box2 {
+	background: url(../images/boxBottom.jpg) no-repeat scroll left bottom;
+	width: 250px;
+	float: left;
+	padding-bottom: 15px;
+	margin: 25px;
+}
+
+.box3 {
+	background: url(../images/boxBottom.jpg) no-repeat scroll left bottom;
+	width: 250px;
+	float: left;
+	padding-bottom: 15px;
+	margin: 25px;
+}
+
+.box h3 {
+	background: url(../images/box.jpg) repeat scroll 0 0;
+	color: #FFF;
+	font-size: 17px;
+	height: 35px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 15px;
+	
+}
+
+.box p {
+	background: #ffffff none repeat scroll 0 0;
+	border-color: #CCC;
+	border-width: 0 1px;
+	border-style: solid;
+	color: #444444;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 15px 14px 0;
+	width: 220px;
+}
+
+
+/* bonus drop cap class */
+
+.dropcap {
+	float: left;
+	color: #93c;
+	font-size: 78px;
+	line-height: 62px;
+	padding-right: 2px;
+	padding-top: 3px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}

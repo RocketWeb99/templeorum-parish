@@ -1,0 +1,52 @@
+@charset "utf-8"
+
+<div class="holder">
+
+
+</div>end of holder div
+
+<div class="top">
+
+</div>end of top div
+
+<div class="bottom">
+
+</div>end of bottom div
+
+.holder {
+	height: auto;
+	width:250px;
+}
+
+.top {
+	width: 248px;
+	height: auto;
+	border: 2px #333;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	box-shadow: 3px 3px 5px;
+	-moz-box-shadow:3px 3px 5px #999;
+	-webkit-box-shadow:3px 3px 5px #999;
+	box-shadow: 3px 3px 3px #999;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.top h3{ margin:0px;
+line-height:30px;
+padding:10px 10px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:15px;
+}
+
+	.bottom {
+	width: 240px;
+	height: 10px;
+	bordr:1px solid #333;
+
+}
+<div class="top">
+<p> Piltown Co. Kilkenny</p>
+
+</div>

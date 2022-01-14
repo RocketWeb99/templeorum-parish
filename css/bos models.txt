@@ -1,0 +1,209 @@
+Box models 25th August 2012
+
+width: 260px; 
+height: 260px; 
+background-image: url(bgimage.jpg);
+
+
+
+width: 260px; 
+height: 260px; 
+background-image: url(bgimage.jpg); 
+padding: 20px;
+
+
+
+width: 260px; 
+height: 260px; 
+background-image: url(bgimage.jpg); 
+border: solid gray 20px;
+
+
+width: 260px; 
+height: 260px; 
+background-image: url(bgimage.jpg); 
+margin: 20px;
+
+width: 260px; 
+height: 260px; 
+background-image: url(bgimage.jpg); 
+margin: 20px; padding: 20px; border: solid gray 20px;
+
+
+
+<h1>CSS Box Model Examples</h1>
+<h2>An Explanation of the Box Model - Visually</h2>
+<p>The CSS Box Model can be hard to understand. The following paragraphs have different parts of the box model defined with a background image to illuminate the content.</p>
+<div id="sidebar"><script>zSB(3,3)</script></div>
+<h3 id="b1">A Plain Paragraph with Background Image</h3>
+<p id="plain">
+This is the content within the paragraph. It is the defined width of the paragraph.
+</p>
+<blockquote class="yes">
+width: 260px; <br>
+height: 260px; <br>
+background-image: url(bgimage.jpg);
+</blockquote>
+
+<h3 id="b2" style="margin-top: 400px;">Set the Padding to 20 px</h3>
+<p id="padding">
+This is the content within the paragraph. It is the defined width of the paragraph.
+</p>
+<blockquote class="yes">
+width: 260px; <br>
+height: 260px; <br>
+background-image: url(bgimage.jpg); <br>
+padding: 20px;
+</blockquote>
+
+------------------------------------------------------
+
+Copy the CSS into a file called styles.css. Save this in the same directory as your HTML document. Be sure to not copy the advertisement copy that may appear within the code.
+
+ body {
+ font: .8em/normal Geneva, Arial, Helvetica, sans-serif;
+ width:770px; margin:6px; padding:0px;
+ }
+ #container { width:770px; }
+ p { margin-top: 0px; }
+ 
+ body.standard h1 { width:380px; float:left; height:120px; margin: 0 0 6px 0; border: #000 1px solid; font: normal 1em/normal Geneva, Arial, Helvetica, sans-serif; }
+ 
+ #main { width:510px; float:left; }
+ 
+ .rtsquare { width:120px; float:right; }
+ .ltsquare { width:120px; float: left; }
+ .lt248 { width:248px; float:left; }
+ .rt248 { width:248px; float:right; }
+ .lt250 { width:250px; float:left; margin:0; padding:0;}
+ .rt250 { width:250px; float:right; margin:0; padding:0;}
+ .lt380 { width:380px; float:left; margin:0; padding:0; }
+ .rt380 { width:380px; float:right; margin:0; padding:0; }
+ 
+ .border1px { border: #000 1px solid; }
+ .border3px { border-bottom: 3px solid #6B1930; }
+ 
+ .height120 { height: 120px; }
+ .height248 { height:248px; }
+ 
+ .marginbot { margin-bottom:6px; }
+ 
+ body.example h1 {
+ font: bold 2em/normal Geneva, Arial, Helvetica, sans-serif;
+ text-transform: capitalize;
+ color: #6B1930;
+ border-bottom: 2em solid #6B1930;
+ width:380px; float:left; margin-bottom: 6px; margin-top:0px;
+ }
+ body.example ul { width:120px; height:248px; margin:0 0 6px 0; float: left; }
+ body.example ul li {
+ width:120px;
+ height:1.5em;
+ list-style:none;
+ display:block;
+ text-decoration:underline;
+ color:#6B1930;
+ } 
+You are free to use any of the free Web templates here for personal or commercial designs, either in print or on the Web, excluding items for resale. You may not give away, sell, or redistribute the files in any way. Do not post these files on any another Web site, electronically distribute them, or include them in any package for distribution. If you find these files useful, please include a credit line or a link back to this site [http://webdesign.about.com/]. Terms of use last modified 8/29/2004.
+
+
+
+-------------------------------------------------------------------
+
+XHTML CSS Three Column Top Layer Template
+The CSS
+
+By Jennifer Kyrnin, About.com Guide
+Copy the CSS into a file called main.css. Save this in the same directory as your HTML document. Be sure to not copy the advertisement copy that may appear within the code.
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+  
+#left {
+  position: absolute;
+  left:0px;
+  top:100px;
+  width:200px;
+  background:#fff;
+  border:1px solid #000;
+  padding: 0px 5px;
+}
+
+#right {
+  position: absolute;
+  right:0px;
+  top:100px;
+  width:200px;
+  background:#fff;
+  border:1px solid #000;
+  padding: 0px 5px;
+}
+
+#header {
+  background:#fff;
+  /* IE 5.5 */
+  height:81px;
+  border-top:1px solid #000;
+  border-right:1px solid #000;
+  border-left:1px solid #000;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  /* IE 6 */
+  height: 99px;
+}
+html]body #banner {
+  /* Mozilla and Safari */
+  height: 99px;
+}
+
+#main {
+  background:#fff;
+  /* these two margins affect IE 5.5 */
+  margin-left: 200px;
+  margin-right:200px;
+  border:1px solid #000;
+  padding: 0px 5px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  /* these two margins affect IE 6 */
+  margin-left: 200px;
+  margin-right:200px;
+}
+html]body #main {
+  /* these two margins affect Mozilla and Safari */
+  margin-left: 212px;
+  margin-right:212px;
+}
+#footer {
+  width: 100%;
+  height: 35px;
+  border: solid #000000;
+  border-width: 1px 0;
+  margin: 0;
+}
+
+
+
+--------------------------------------
+
+http://webdesign.about.com/od/examples/l/blcssboxmodelexamples.htm#b3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
